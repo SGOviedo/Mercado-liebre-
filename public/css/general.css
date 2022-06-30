@@ -1,0 +1,24 @@
+:root{
+    /*--colorAmarillo: #EAC926;
+    --colorAzul: #03264C;
+    --colorCeleste: #1259c3;
+    --colorGrisoscuro: #666;
+    --colorGrisclaro: #ebebeb;
+    --colorVerde: #39b54a;
+    
+    --textoSizeCuerposdetexto: 12px;
+    --textoSizeTitulares: 24px;
+    --textoSizePrecios: 18px;
+    --textoSizeDescuentos: 16px;
+    --textoSizeDescripciones: 16px;*/
+    --tipografiaGeneral: 'Roboto';
+}
+
+.home__div--img {
+     background-color: #EAC926;
+     font-family: var(--tipografiaGeneral);
+   
+}
+h1{
+    font-size: 100px;
+}
