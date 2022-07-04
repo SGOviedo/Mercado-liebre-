@@ -1,0 +1,69 @@
+@import './general.css';
+
+.home__header{
+    background-color: var(--colorAmarillo);
+}
+.home__header img , .home__header__nav--div--barrabusqueda{
+    width: 100%;
+    padding: 20px;
+}
+.home__header__nav--div--parrafo1 p{
+text-align: center;
+font-size: var(--textoSizeDescripciones);
+margin-bottom: 15px;
+}
+.home__header__nav--div--opciones--lista{
+    padding: 0;
+    text-decoration: none;
+}
+.home__header__nav--div--opciones ul{
+    color: var(--colorGrisoscuro);
+}
+.home__header__nav--div--burger button{
+    text-align: center;
+    align-items: center;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    background-color: var(--colorCeleste);
+    border-radius: 8px;
+    padding: 10px;
+    font-size: 30px;
+    margin-left: 42.5%;
+    margin-right: 42.5%;
+    color: var(--colorGrisclaro);
+}
+.home__main{
+    border: solid 15px var(--colorGrisoscuro);
+    border-bottom: solid 10px var(--colorGrisoscuro);
+    border-top: solid 10px var(--colorGrisoscuro);
+    text-align: center;
+    align-items: center;
+    margin-bottom: 50px;
+}
+.home__main--section1--producto, .home__main--section2--producto{
+    background-color: white;
+    border: solid 5px var(--colorGrisoscuro);
+}
+.home__footer {
+    text-align: center;
+    align-items: center;
+    border: solid 10px white;
+}
+.home__footer i{
+    color: var(--colorCeleste);
+    font-size: 30px;
+    margin-bottom: 15px;
+    
+}
+.home__footer--lista--n1, .home__footer--lista--n2, .home__footer--lista--n3{
+    margin-bottom: 60px;
+}
+.home__footer h6{
+    font-size: var(--textoSizeCuerposdetexto);
+}
+.home__footer p{
+    font-size: var(--textoSizeDescripciones);
+}
+.home__footer--lista--n4{
+    text-align: left;
+}
