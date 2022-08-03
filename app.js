@@ -1,11 +1,12 @@
+require('dotenv').config();
 const express = require("express");
 const path = require('path');
 const app = express();
-const port = 3030;
 
-/*recursos estaticos*/
-
+/*MIDDLEWARE*/
 app.use(express.static('public'));
+app.set('puerto', process.env.PORT || 3000)
+
 
 /*rutas*/
 app.get('/', (req,res) => res.sendFile(path.join(__dirname, 'views', 'home.html')));
@@ -13,4 +14,4 @@ app.get('/login', (req,res) => res.sendFile(path.join(__dirname, 'views', 'login
 app.get('/register', (req,res) => res.sendFile(path.join(__dirname, 'views', 'register.html')));
 
 /*puerto*/
-app.listen(port, () => console.log("Server running in htpp://localhost:" + port));
+app.listen(app.get('puerto'), () => console.log('Servidor corriendo de manera satisfactoria'));
