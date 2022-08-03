@@ -9,7 +9,8 @@ app.use(express.static('public'));
 
 /*rutas*/
 app.get('/', (req,res) => res.sendFile(path.join(__dirname, 'views', 'home.html')));
+app.get('/login', (req,res) => res.sendFile(path.join(__dirname, 'views', 'login.html')));
+app.get('/register', (req,res) => res.sendFile(path.join(__dirname, 'views', 'register.html')));
 
 /*puerto*/
-app.listen(port, () => console.log("Server running in htpp://localhost:" + port))
-
+app.listen(port, () => console.log("Server running in htpp://localhost:" + port));

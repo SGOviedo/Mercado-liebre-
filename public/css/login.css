@@ -1,0 +1,68 @@
+:root{
+    --colorAmarillo: #EAC926;
+    --colorAzul: #03264C;
+    --colorCeleste: #1259c3;
+    --colorGrisoscuro: #666;
+    --colorGrisclaro: #ebebeb;
+    --colorVerde: #39b54a;
+    
+    --textoSizeCuerposdetexto: 12px;
+    --textoSizeTitulares: 24px;
+    --textoSizePrecios: 18px;
+    --textoSizeDescuentos: 16px;
+    --textoSizeDescripciones: 16px;
+    --tipografiaGeneral: 'Roboto';
+}
+
+.login__main{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    background-color: var(--colorGrisclaro);
+    flex-wrap: wrap;
+    margin-top: 20px;
+}
+.login__main__form{
+    display: flex;
+    width: 60%;
+    align-items: center;
+    flex-direction: column;
+    gap: 40px;
+}
+.login__main__form--boton{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    background-color: var(--colorCeleste);
+    border: none;
+    padding: 15px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    color: #ebebeb;
+}
+.login__main__form--usuario{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    border: none;
+    font-size: var(--textoSizeCuerpodetexto);
+}
+.login__main__form--usuario input{
+    border: none;
+    width: 100%;
+    padding: 10px;
+    border-radius: 5px;
+}
+.login__main__form--contraseña{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    border: none;
+    font-size: var(--textoSizeCuerpodetexto);
+}
+.login__main__form--contraseña input{
+    border: none;
+    width: 100%;
+    padding: 10px;
+    border-radius: 5px;
+}
