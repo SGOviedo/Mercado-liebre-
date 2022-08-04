@@ -14,4 +14,4 @@ app.get('/login', (req,res) => res.sendFile(path.join(__dirname, 'views', 'login
 app.get('/register', (req,res) => res.sendFile(path.join(__dirname, 'views', 'register.html')));
 
 /*puerto*/
-app.listen(app.get('puerto'), () => console.log('Servidor corriendo de manera satisfactoria'));
+app.listen(app.get('puerto'), () => console.log('Servidor corriendo de manera satisfactoria en el puerto 3030'));

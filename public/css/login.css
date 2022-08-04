@@ -33,7 +33,7 @@
     display: flex;
     width: 100%;
     justify-content: center;
-    background-color: var(--colorCeleste);
+    background-color: var(--colorVerde);
     border: none;
     padding: 15px;
     margin-bottom: 20px;
@@ -65,4 +65,7 @@
     width: 100%;
     padding: 10px;
     border-radius: 5px;
+}
+.login__main__form--boton:hover{
+    background-color: #0022AA;
 }
