@@ -13,20 +13,26 @@
     --textoSizeDescripciones: 16px;
     --tipografiaGeneral: 'Roboto';
 }
-
+*{
+    margin: 0;
+    border: 0;
+    box-sizing: border-box;
+}
 .login__main{
     display: flex;
     width: 100%;
     justify-content: center;
-    background-color: var(--colorGrisclaro);
     flex-wrap: wrap;
-    margin-top: 20px;
+    padding: 20px;
 }
 .login__main__form{
     display: flex;
-    width: 60%;
+    width: 90%;
     align-items: center;
+    background-color: var(--colorGrisclaro);
+    padding: 10px;
     flex-direction: column;
+    border-radius: 10px;
     gap: 40px;
 }
 .login__main__form--boton{
@@ -68,4 +74,15 @@
 }
 .login__main__form--boton:hover{
     background-color: #0022AA;
+}
+@media (min-width:768px){
+    .login__main__form{
+        width: 50%;
+    }
+}
+
+@media (min-width: 1024px){
+    .login__main__form{
+        width: 40%;
+    }
 }
